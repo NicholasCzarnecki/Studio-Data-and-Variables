@@ -7,13 +7,13 @@ let time = "10:05:34 AM";
 const input = require('readline-sync');
 let astronautCount = Number(input.question("How many astronauts are going on this mission? "));
 let astronautStatus	= "ready";
-let averageAstronautMassKg =80.7;
-let crewMassKg	= astronautCount * averageAstronautMassKg;
+let averageAstronautMassKg = 80.7;
+let crewMassKg = astronautCount * averageAstronautMassKg;
 let fuelMassKg = 760000;
-let shuttleMassKg	 = 74842.31;
-let totalMassKg =	crewMassKg + fuelMassKg + shuttleMassKg;
+let shuttleMassKg = 74842.31;
+let totalMassKg = crewMassKg + fuelMassKg + shuttleMassKg;
 let fuelTempCelsius	= -225;
-let fuelLevel	 = "100%";
+let fuelLevel = "100%";
 let weatherStatus = "clear";
 
 
